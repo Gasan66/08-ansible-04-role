@@ -1,0 +1,7 @@
+---
+- name: Install Elasticsearch
+  hosts: all
+  roles:
+    - elastic
+    - kibana-role
+    - filebeat-role
